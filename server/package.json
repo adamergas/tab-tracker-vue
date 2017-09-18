@@ -1,0 +1,33 @@
+{
+  "name": "tab-tracker-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "eslint **/*.js",
+    "start": "node src/app.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamergas/tab-tracker-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamergas/tab-tracker-vue/issues"
+  },
+  "homepage": "https://github.com/adamergas/tab-tracker-vue#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1",
+    "eslint": "^4.7.0",
+    "nodemon": "^1.12.1"
+  }
+}
