@@ -66,7 +66,6 @@
   </v-layout>
 </template>
 <script>
-import Panel from '@/components/Panel.vue'
 import SongsService from '@/services/SongsService'
 export default {
   data () {
@@ -117,7 +116,6 @@ export default {
     }
   },
   components: {
-    Panel
   }
 }
 </script>

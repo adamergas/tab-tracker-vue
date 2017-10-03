@@ -2,7 +2,7 @@
   <v-toolbar fixed class="cyan" dark>
 
     <v-toolbar-title class="mr-4">
-      <router-link to="home" tag="span" class="/home">Tab Tracker</router-link>
+      <router-link to="/home" tag="span" class="/home">Tab Tracker</router-link>
     </v-toolbar-title>
 
     <v-toolbar-items>

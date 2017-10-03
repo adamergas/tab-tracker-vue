@@ -23,7 +23,6 @@
 
 <script>
 import AuthenticationService from '@/services/AuthenticationService'
-import Panel from '@/components/Panel.vue'
 export default {
   data () {
     return {
@@ -48,7 +47,6 @@ export default {
     }
   },
   components: {
-    Panel
   }
 }
 </script>

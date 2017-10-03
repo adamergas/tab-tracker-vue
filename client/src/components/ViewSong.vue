@@ -61,7 +61,6 @@
   </div>
 </template>
 <script>
-import Panel from '@/components/Panel'
 import SongsService from '@/services/SongsService'
 export default {
   data () {
@@ -74,7 +73,6 @@ export default {
     this.song = (await SongsService.show(songId)).data
   },
   components: {
-    Panel
   }
 }
 </script>
